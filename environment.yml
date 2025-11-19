@@ -7,7 +7,7 @@ channels:
 dependencies:
   - python=3.10.*
   - pip
-  - datalad=0.19.*
+  - datalad=1.2.*
   - pandas
   - seaborn
   - pip:
@@ -16,3 +16,4 @@ dependencies:
       - jupyter-notebookparams
       - jupyter-server-proxy
       - jupytext
+      - jupyter_contrib_nbextensions
